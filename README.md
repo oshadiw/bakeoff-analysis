@@ -13,17 +13,18 @@
 
 # Overview
 --- 
-This is an analysis on the great british baking show
+This is an analysis on the great british baking show. We have a unique data set pulling from disparate sources and created routines to pull data from the GBBO website. This data is then highlighted on a github page found here.
 
 # https://oshadiw.github.io/bakeoff-analysis/
 
 # Data
 ---
-The data comes from wikipedia, a dataset from  ______, and the show itself.
+The data comes from wikipedia, a dataset from  ______, the gbbo website, and the show itself.
 
 # Dashboard
 ---
-We are in the process of making a dashboard to display our data.
+We are in the process of making a dashboard to display our data. You can see our porogress ![here](https://oshadiw.github.io/bakeoff-analysis/)
+
 
 # Team
 ---
