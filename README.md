@@ -1,5 +1,3 @@
-# https://oshadiw.github.io/bakeoff-analysis/
-
 # The Great British Bakeoff Analysis
 
 ![Great British Bake Off](https://rts.org.uk/sites/default/files/the_great_british_off-none_a2_0.jpg)
@@ -23,7 +21,7 @@ The data comes from wikipedia, a dataset from  ______, the gbbo website, and the
 
 # Dashboard
 ---
-We are in the process of making a dashboard to display our data. You can see our porogress ![here](https://oshadiw.github.io/bakeoff-analysis/)
+We are in the process of making a dashboard to display our data. You can see our progress [here](https://oshadiw.github.io/bakeoff-analysis/)
 
 
 # Team
