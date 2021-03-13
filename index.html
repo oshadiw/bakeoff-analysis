@@ -1,133 +1,179 @@
 <!DOCTYPE html>
 <html>
-<title>The Great British Bake Off Analysis</title>
+
+<head>
+  <title>The Great British Bake Off Analysis</title>
+  <script src="plotly-latest.min.js"></script>
+  <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <style>
-body {font-family: "Times New Roman", Georgia, Serif;}
-h1, h2, h3, h4, h5, h6 {
-  font-family: "Playfair Display";
-  letter-spacing: 5px;
-}
+  body {
+    font-family: "Times New Roman", Georgia, Serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Playfair Display";
+    letter-spacing: 5px;
+  }
 </style>
+
 <body>
 
-<!-- Navbar (sit on top) -->
-<div class="w3-top">
-  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
-    <a href="#home" class="w3-bar-item w3-button">The Great British Bakeoff Analysis</a>
-    <!-- Right-sided navbar links. Hide them on small screens -->
-    <div class="w3-right w3-hide-small">
-      <a href="#contestants" class="w3-bar-item w3-button">Contestant Stats</a>
-      <a href="#recipe" class="w3-bar-item w3-button">Recipe Picker</a>
-      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+      <a href="#home" class="w3-bar-item w3-button">The Great British Bakeoff Analysis</a>
+      <!-- Right-sided navbar links. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="#contestants" class="w3-bar-item w3-button">Contestant Stats</a>
+        <a href="#recipe" class="w3-bar-item w3-button">Recipe Picker</a>
+        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      </div>
     </div>
   </div>
-</div>
 
-<!-- Header -->
-<header class="w3-display-container w3-content w3-wide" style="max-width:1200px;min-width:500px" id="home">
-  <img class="w3-image" src="static/images/The_Great_British_Bake_Off_title.jpg" alt="GBBO" width="1200" height="100">
-</header>
+  <!-- Header -->
+  <header class="w3-display-container w3-content w3-wide" style="max-width:1200px;min-width:500px" id="home">
+    <img class="w3-image" src="static/images/The_Great_British_Bake_Off_title.jpg" alt="GBBO" width="1200" height="100">
+  </header>
 
-<!-- Page content -->
-<div class="w3-content" style="max-width:1100px">
-  
-  <!-- About Section -->
-  <div class="w3-col m12 w3-padding-large">
-    <h1 class="w3-center">About the Project</h1><br>
+  <!-- Page content -->
+  <div class="w3-content" style="max-width:1100px">
+
+    <!-- About Section -->
+    <div class="w3-col m12 w3-padding-large">
+      <h1 class="w3-center">The Show</h1><br>
       <div class="w3-row w3-padding-24" id="contestants">
-      <p class="w3-large">This project exploration of the Great British Bake off.</p>
+        <p class="w3-large">The Great British Bake Off is a British television baking competition in which a group of
+          amateur bakers compete against each other in a series of rounds, attempting to impress a group of judges with
+          their baking skills. The show has inspired many to begin baking themselves, myself included. It is now
+          available on Netflix but matching up the british and american season can be quite tricky. In the US, the show
+          is titled The Great British Baking Show rather than bake off because of a Pillsbury trademark on the term
+          bake-off. The seasons themselves are out of order on Netflix but you can blame PBS for that. They got the
+          rights to the seasons out of order and decided to number them on their own terms. The judges, location, and
+          format have changed slightly over the years but none of the charm has left.</p>
+      </div>
+      <img class="w3-image" src="static/images/GBBO Data Set - Seasons.jpg">
     </div>
-  </div>
 
-  <hr>
+    <hr>
 
-  <!-- Contestants Section -->
-  <div class="w3-col m12 w3-padding-large">
-    <h1 class="w3-center">About the Contestants</h1><br>
+    <!-- Contestants Section -->
+    <div class="w3-col m12 w3-padding-large">
+      <h1 class="w3-center">About the Contestants</h1><br>
+      <div class="w3-row w3-padding-24" id="contestants">
+        <div class="w3-col m6 w3-padding-large w3-hide-small w3-right">
+          <img src="static/images/contestant_ages.png" class="w3-round w3-image" alt="map" width="600" height="600">
+        </div>
+        <p class="w3-large">
+          Part of the universal appeal of the show is the representation. Contestants come from all backgrounds and are
+          judged on their bakes and not their looks. While the average of of all contestants is 37, the youngest
+          contestant was 17 (Martha from Season 5) and the oldest was 71 (Flo from Season 8). The show is also split
+          almost evenly between female and male, 68 and 64 contestants respectively.
+        </p>
+      </div>
+      <div class="w3-row w3-padding-24" id="contestants">
+        <div class="w3-col m6 w3-padding-large w3-hide-small">
+          <img src="static/images/contestant_occupations.png" class="w3-round w3-image" alt="map" width="600"
+            height="600">
+        </div>
+        <p class="w3-large">
+          Contestants on the show are not professional bakers. They are home cooks who have a passion for baking. Some
+          are retired, some are students, and others are what we now call "essential workers." The graph on the left
+          shows that nearly a quarter of the contestants work in Business, Management, and Administration. This includes
+          jobs like Ruby from Season 9 who is a Project Manager or Dorret from Season 6 who works as an Accountant. Most
+          of the contestant don't quit their day job after the show since there is no cash prize. However, some do shift
+          to a more food focused career. More that 20 of the former contestants have written cooking books and many of
+          the former winners continue to make appearances at festivals and guest judges for cooking competitions.
+        </p>
+      </div>
       <div class="w3-row w3-padding-24" id="contestants">
         <div class="w3-col m6 w3-padding-large w3-hide-small">
           <img src="static/images/map.jpg" class="w3-round w3-image" alt="map" width="600" height="600">
         </div>
-      <p class="w3-large">
-        The contestants featured on The Great British Bake Off come from all over the UK! This map shows the geographic distribution of the contestants' hometown.
-      </p>
+        <p class="w3-large">
+          The contestants featured on The Great British Bake Off come from all over the UK! This map shows the
+          geographic distribution of the contestants' hometown. You can see that many of the contestants are from London
+          and Manchester but some contestants come from as far north as Hillswick (James from Season 3).
+        </p>
+      </div>
     </div>
-  </div>
-  
-  <hr>
-  
-  <!-- Data Explorer Section -->
-  <div class="w3-row w3-padding-64" id="recipe">
-    <div class="w3-col m12 w3-padding-large">
-      <h1 class="w3-center">Data Viewer</h1><br>
-      <p class="w3-large">
-        To explore the data set please select a season, episode, and bake.
-      </p>
-      <label for="season">Select a Series(Season):</label>
+    <hr>
 
-      <select name="season" id="season">
-        <option value="1">Series 1</option>
-        <option value="2">Series 2</option>
-        <option value="3">Series 3</option>
-        <option value="4">Series 4</option>
-        <option value="5">Series 5</option>
-        <option value="6">Series 6</option>
-        <option value="7">Series 7</option>
-        <option value="8">Series 8</option>
-        <option value="9">Series 9</option>
-        <option value="10">Series 10</option>
-        <option value="11">Series 11</option>
-      </select> 
+    <!-- Data Explorer Section -->
+    <div class="w3-row w3-padding-64" id="recipe">
+      <div class="w3-col m12 w3-padding-large">
+        <h1 class="w3-center">Winners</h1><br>
+        <p class="w3-large">
+          Each season of the show has one winner. This contestant receives no prize money but does get a sweet plate to
+          serve cupcakes on.
+        </p>
+        <div class="w3-col m6 w3-padding-large w3-hide-small w3-left">
+          <img src="static/images/winner_favorites.png" class="w3-round w3-image" alt="map" width="600" height="600">
+        </div>
+        <div class="w3-col m6 w3-padding-large w3-hide-small w3-right">
+          <img src="static/images/winner_least_favorites.png" class="w3-round w3-image" alt="map" width="600"
+            height="600">
+        </div>
+        <p class="w3-large">
+          Each episode, just before the Showstopper, the judges discuss who is in running for star baker and who is in
+          danger of going home. Typically they suggest two contestants for each. The graphs above show the number of
+          times each winner was in danger of going home and how often they were in line for star baker. We can see that
+          every winner was in line for star baker at least twice and only David from Season 10 never won the coveted
+          star baker (though he was in the running nearly every other episode).
+          <br>
+          <br>
+          Each week, one of the two bakers considered to be 'in danger' goes home. Usually the only way to stay in the
+          contest is to do well in the showstopper challenge. Nearly every winner has been in danger of going home at
+          least once. Only Sophie from Season 8 was never at risk of going home. She is also tied for the most number of
+          weeks in the running for star baker and won it twice. Interestingly, the person who won the most number of
+          start bakers did not win the competition. Richard Burr won star baker 5 times in season 5 and came in as
+          runner up to Nancy Birtwhistle who is the oldest winner of the show at 60 years old.
+        </p>
+      </div>
 
-      <label for="episode">Select an Episode:</label>
+      <hr>
+      <div class="w3-row w3-padding-64" id="recipe">
+          <img src="static/images/technical_rank.png" class="w3-image" alt="map" width="600"
+            height="600">
+        <p class="w3-large">
+          The part of the episode that usually gives the bakers the most challenge is the technical bake.
+        </p>
+      </div>
 
-      <select name="episode" id="episode">
-        <option value="1">Episode 1</option>
-        <option value="2">Episode 2</option>
-        <option value="3">Episode 3</option>
-        <option value="4">Episode 4</option>
-        <option value="5">Episode 5</option>
-        <option value="6">Episode 6</option>
-        <option value="7">Episode 7</option>
-        <option value="8">Episode 8</option>
-        <option value="9">Episode 9</option>
-        <option value="10">Episode 10</option>
-        <option value="11">Episode 11</option>
-      </select>
+      <!-- Nutrition Section -->
+      <div class="w3-row w3-padding-64" id="recipe">
+        <div class="w3-col m12 w3-padding-large">
+          <h1 class="w3-center">Nutrition of Technical Bakes</h1><br>
+          <p class="w3-large">
+            We have performed web scraping from (insert link) to get the ingredients from each of the technical bakes.
+            These have then gone through natural language processing to extract the ingredient, quantity, and
+            measurement. These have then used in conjunction with Food Data Central API to extract the key macros for
+            each dish including protein, sugar, and fat. Select a season and episode to see key nutrients for each dish.
+            Selecting just a season will show which dish has the most of each nutrient per serving.
+          </p>
+        </div>
 
-      <label for="bake">Select a Bake:</label>
+        <hr>
 
-      <select name="bake" id="bake">
-        <option value="signature">Signature</option>
-        <option value="technical">Technical</option>
-        <option value="showstopper">Showstopper</option>
-      </select> 
-      
-  </div>
+        <!-- End page content -->
+      </div>
 
-  <hr>
-
-  <!-- Nutrition Section -->
-  <div class="w3-row w3-padding-64" id="recipe">
-    <div class="w3-col m12 w3-padding-large">
-      <h1 class="w3-center">Nutrition of Technical Bakes</h1><br>
-      <p class="w3-large">
-        We have performed web scraping from (insert link) to get the ingredients from each of the technical bakes. These have then gone through natural language processing to extract the ingredient, quantity, and measurement. These have then used in conjunction with Food Data Central API to extract the key macros for each dish including protein, sugar, and fat. Select a season and episode to see key nutrients for each dish. Selecting just a season will show which dish has the most of each nutrient per serving.
-      </p>
-  </div>
-
-  <hr>
-  
-<!-- End page content -->
-</div>
-
-<!-- Footer -->
-<footer class="w3-center w3-light-grey w3-padding-32">
-  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
-</footer>
+      <!-- Footer -->
+      <footer class="w3-center w3-light-grey w3-padding-32">
+        <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank"
+            class="w3-hover-text-green">w3.css</a></p>
+      </footer>
 
 </body>
+
 </html>

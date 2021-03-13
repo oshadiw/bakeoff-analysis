@@ -1,0 +1,135 @@
+,First Name,Last Name,Gender,Age,Occupation,Hometown,Week Left,Nationality,Written Book,Series,Occupation (encoded),Occupation Category
+Series 1,Annetha,,F,30,Midwife,Essex,2,,0,1,5,Health Science
+Series 1,David,,M,31,Entrepreneur,Milton Keynes,4,,0,1,2,"Business, Management and Administration"
+Series 1,Edd,,M,24,Debt collector,Bradford,winner,,1,1,2,"Business, Management and Administration"
+Series 1,Jasminder,,F,45,Assistant Credit Control Manager,Birmingham,5,,0,1,2,"Business, Management and Administration"
+Series 1,Jonathan,,M,25,Research Analyst,St Albans,3,,0,1,5,Health Science
+Series 1,Lea,,F,51,Retired,"Midlothian, Scotland",1,,0,1,0,Retired/Stay-at-Home
+Series 1,Louise,,F,44,Police Officer,Manchester,2,,0,1,6,Human Services
+Series 1,Mark,,M,48,Bus Driver,"South Wales, England",1,,0,1,6,Human Services
+Series 1,Miranda,,F,37,Food buyer,"Midhurst, West Sussex",6,,1,1,2,"Business, Management and Administration"
+Series 1,Ruth,,F,31,Retail Manager/Housewife,"Poynton, Cheshire",6,,1,1,0,Retired/Stay-at-Home
+Series 2,Ben,,M,31,Graphic Designer,Northhampton,,,0,2,3,Communications and Information Systems
+Series 2,Holly,,F,31,Advertising Executive,Leicester,,,1,2,2,"Business, Management and Administration"
+Series 2,Ian,,M,40,Fundraiser,"Dunstable, Bedfordshire",,,0,2,2,"Business, Management and Administration"
+Series 2,Janet,,F,63,Teacher,"Formby, Liverpool",,,0,2,9,Teacher/Coach
+Series 2,Jason,,M,19,Civil Engineering Student,Croydon,,,0,2,7,Student
+Series 2,Joanne,,F,41,Housewife,"Ongar, Essex",,,1,2,0,Retired/Stay-at-Home
+Series 2,Keith,,M,31,Househusband,"Arlesey, Bedfordshire",1,,0,2,0,Retired/Stay-at-Home
+Series 2,Mary-Anne,,F,45,Housewife,"Kidderminster, Worcestershire",,,1,2,0,Retired/Stay-at-Home
+Series 2,Robert,,M,25,Photographer,London,,,0,2,8,Arts
+Series 2,Simon,,M,31,Rugby Coach,Norfolk,2,,0,2,9,Teacher/Coach
+Series 2,Urvashi,,F,40,Head of Marketing,"Enfield, London",,,0,2,2,"Business, Management and Administration"
+Series 2,Yasmin,,F,43,Childminder,"West Kirby, The Wirral",,,0,2,9,Teacher/Coach
+Series 3,Brenden,,M,63,Recruitment Consultant,Sutton Coldfield,,,0,3,2,"Business, Management and Administration"
+Series 3,Cathryn,,F,27,Shop Assistant,"Pease Pottage, West Sussex",,,1,3,6,Human Services
+Series 3,Danny,,F,45,Intensive Care Counsultant,Sheffield,,,0,3,5,Health Science
+Series 3,James,,M,21,Medical Student,"Hillswick, Shetland Islands",,,1,3,7,Student
+Series 3,John,,M,23,Law Student,Wigan,,,1,3,7,Student
+Series 3,Manisha,,F,27,Nursery Nurse,Leicester,,,0,3,5,Health Science
+Series 3,Natasha,,F,36,Midwife,"Tamworth, Staffordshire",,,0,3,5,Health Science
+Series 3,Peter,,M,43,Sales Manager,"Windsor, Berkshire",,,0,3,2,"Business, Management and Administration"
+Series 3,Ryan,,M,38,Photographer,Bristol,,,0,3,8,Arts
+Series 3,Sarah-Jane,,F,28,Vicar's Wife,"Bewbush, West Sussex",,,0,3,0,Retired/Stay-at-Home
+Series 3,Stuart,,M,26,PE Teacher,"Lichfield, Staffordshire",,,0,3,9,Teacher/Coach
+Series 3,Victoria,,F,50,CEO of the charity Plantlife,Somerset,,,0,3,2,"Business, Management and Administration"
+Series 4,Ali,,M,25,Charity worker        ,"Saltley, Birmingham",,,0,4,6,Human Services
+Series 4,Beca,,F,31,Military Wives' Choir Singer        ,"Aldershot, Hampshire",,,0,4,8,Arts
+Series 4,Christine,,F,66,Director of an engraving company        ,"Didcot, Oxfordshire",,,0,4,2,"Business, Management and Administration"
+Series 4,Deborah,,F,51,Dentist ,Peterborough,,,0,4,5,Health Science
+Series 4,Frances,,F,31,Children's Clothes Designer        ,"Market Harborough, Leicestershire",,,1,4,3,Communications and Information Systems
+Series 4,Glenn,,M,37,English Teacher        ,"Teignmouth, Devon",,,0,4,9,Teacher/Coach
+Series 4,Howard,,M,51,Council Worker        ,Sheffield,,,0,4,6,Human Services
+Series 4,Kimberley,,F,30,Psychologist,London,,,0,4,5,Health Science
+Series 4,Lucy,,F,38,Horticulturist ,"Grimsby, Lincolnshire",,,0,4,1,"Agriculture, Food and Natural Resources"
+Series 4,Mark,,M,37,Carpenter and Kitchen Fitter        ,Milton Keynes,,,0,4,4,"Engineering, Manufacturing and Technology"
+Series 4,Robert,,M,54,Space Satellite Designer        ,"Melbourn, Cambridgeshire",,,0,4,4,"Engineering, Manufacturing and Technology"
+Series 4,Ruby,,F,20,History of Art and Philosophy Student        ,"Southend, Essex",,,1,4,7,Student
+Series 4,Toby,,M,30,Web Programmer        ,"Reading, Berkshire",,,0,4,4,"Engineering, Manufacturing and Technology"
+Series 5,Chetna,,F,35,Fashion Designer,"Broadstairs, Kent",,,1,5,3,Communications and Information Systems
+Series 5,Claire,,F,31,"Speech Therapist
+","Ashton upon Mersey, Trafford",,,0,5,5,Health Science
+Series 5,Diana,,F,69,Women's Institute (WI) Judge,"Alkington, Shropshire",,,0,5,6,Human Services
+Series 5,Enwezor,,M,39,Business Consultant,"Portsmouth, Hampshire",,,0,5,2,"Business, Management and Administration"
+Series 5,Iain,,M,31,Construction Engineer,London/Belfast,,,0,5,4,"Engineering, Manufacturing and Technology"
+Series 5,Jordan,,M,32,IT Manager,"Sneinton, Nottingham",,,0,5,2,"Business, Management and Administration"
+Series 5,Kate,,F,41,"Furniture Restorer
+","Brighton, East Sussex",,,0,5,4,"Engineering, Manufacturing and Technology"
+Series 5,Luis,,M,42,Graphic Designer,"Poynton, Cheshire",,,1,5,3,Communications and Information Systems
+Series 5,Martha,,F,17,Student,"Ascot, Berkshire",,,1,5,7,Student
+Series 5,Nancy,,F,60,Retired Practice Manager,"Barton-upon-Humber, Lincolnshire",,,0,5,0,Retired/Stay-at-Home
+Series 5,Norman,,M,66,Retired Naval Officer,"Portknockie, Moray",,,0,5,0,Retired/Stay-at-Home
+Series 5,Richard,,M,38,Builder,"Mill Hill, London",,,1,5,4,"Engineering, Manufacturing and Technology"
+Series 6,Alvin,,M,37,Nurse,"Bracknell, Berkshire",,,0,6,5,Health Science
+Series 6,Dorret,,F,53,Accountant,"Penwortham, Lancashire",,,0,6,2,"Business, Management and Administration"
+Series 6,Flora,,F,19,Art gallery assistant,"Dunkeld, Perth and Kinross",,,1,6,8,Arts
+Series 6,Ian,,M,41,Travel photographer,"Great Wilbraham, Cambridgeshire",,,0,6,8,Arts
+Series 6,Marie,,F,66,Retired,"Auchterarder, Perthshire",,,0,6,0,Retired/Stay-at-Home
+Series 6,Mat,,M,37,Fire fighter,London,,,0,6,6,Human Services
+Series 6,Nadiya,,F,30,Full-time mother,Leeds / Luton,,,1,6,0,Retired/Stay-at-Home
+Series 6,Paul,,M,49,Prison governor,"Swansea, Wales",,,0,6,6,Human Services
+Series 6,Sandy,,F,49,Child welfare officer,"Yeadon, West Yorkshire",,,0,6,6,Human Services
+Series 6,Stu,,M,35,Professional musician,"Guildford, Surrey",,,0,6,8,Arts
+Series 6,Tamal,,M,29,Trainee anaesthetist,Manchester,,,0,6,5,Health Science
+Series 6,Ugnė,,F,32,PA and administrator,"Woodford, London / Vilkaviškis, Lithuania",,,0,6,2,"Business, Management and Administration"
+Series 7,Andrew,,M,25,Aerospace engineer,"Derby / Holywood, County Down",,,0,7,4,"Engineering, Manufacturing and Technology"
+Series 7,Benjamina,,F,23,Teaching assistant,South London,,,0,7,9,Teacher/Coach
+Series 7,Candice,,F,31,PE teacher,"Barton-Le-Clay, Bedfordshire",,,1,7,9,Teacher/Coach
+Series 7,Jane,,F,61,Garden designer,Beckenham,,,0,7,1,"Agriculture, Food and Natural Resources"
+Series 7,Kate,,F,37,Nurse,"Brooke, Norfolk",,,0,7,5,Health Science
+Series 7,Lee,,M,67,Pastor,Bolton,,,0,7,6,Human Services
+Series 7,Louise,,F,46,Hairdresser,Cardiff,,,0,7,6,Human Services
+Series 7,Michael,,M,20,Student,Durham,,,0,7,7,Student
+Series 7,Rav,,M,28,Student support,"Erith, England",,,0,7,6,Human Services
+Series 7,Selasi,,M,30,Client service associate,London,,,0,7,2,"Business, Management and Administration"
+Series 7,Tom,,M,26,Project engagement manager,Rochdale,,,0,7,2,"Business, Management and Administration"
+Series 7,Val,,F,66,"Semi-retired, Substitute teacher",Yeovil,,,0,7,9,Teacher/Coach
+Series 8,Chris,,M,50,Software developer,Bristol,,,0,8,4,"Engineering, Manufacturing and Technology"
+Series 8,Flo,,F,71,Retired,Merseyside,,,0,8,0,Retired/Stay-at-Home
+Series 8,James,,M,46,Banker,"Brentwood, Essex",,,0,8,2,"Business, Management and Administration"
+Series 8,Julia,,F,21,Aviation Broker,"Crawley, West Sussex",,,0,8,2,"Business, Management and Administration"
+Series 8,Kate,,F,29,Health and safety inspector        ,Merseyside,,,0,8,6,Human Services
+Series 8,Liam,,M,19,Student ,North London,,,1,8,7,Student
+Series 8,Peter,,M,52,IT programme manager        ,"Southend, Essex",,,0,8,2,"Business, Management and Administration"
+Series 8,Sophie,,F,33,Former army officer and trainee stuntwoman        ,"West Molesey, Surrey",,,0,8,6,Human Services
+Series 8,Stacey,,F,42,Former school teacher        ,"Radlett, Hertfordshire",,,0,8,9,Teacher/Coach
+Series 8,Steven,,M,34,Marketer ,"Watford, Hertfordshire",,,0,8,2,"Business, Management and Administration"
+Series 8,Tom,,M,29,Architect ,Edinburgh,,,0,8,4,"Engineering, Manufacturing and Technology"
+Series 8,Yan,,F,46,Laboratory research scientist        ,North London,,,0,9,5,Health Science
+Series 9,Antony,,M,30,Banker ,London,,,0,9,2,"Business, Management and Administration"
+Series 9,Briony,,F,33,Full-time parent,Bristol,,,0,9,0,Retired/Stay-at-Home
+Series 9,Dan,,M,36,Full-time parent        ,London,,,0,9,0,Retired/Stay-at-Home
+Series 9,Imelda,,F,33,Countryside recreation officer        ,County Tyrone,,,0,9,6,Human Services
+Series 9,Jon,,M,47,Blood courier        ,"Newport, England",,,0,9,5,Health Science
+Series 9,Karen,,F,60,In-store sampling assistant        ,Wakefield,,,0,9,6,Human Services
+Series 9,Kim-Joy,,F,27,Mental health specialist        ,Leeds / Luton,,,1,9,5,Health Science
+Series 9,Luke,,M,30,Civil servant/house and techno DJ        ,Sheffield,,,0,9,6,Human Services
+Series 9,Manon,,F,26,Software project manager        ,London,,,0,9,2,"Business, Management and Administration"
+Series 9,Rahul,,M,30,Research scientist        ,Rotherham,,,0,9,5,Health Science
+Series 9,Ruby,,F,29,Project manager        ,London,,,0,9,2,"Business, Management and Administration"
+Series 9,Terry,,M,46,Retired air steward        ,West Midlands,,,0,9,0,Retired/Stay-at-Home
+Series 10,Alice,,F,29,Geography teacher        ,Essex,,,0,10,9,Teacher/Coach
+Series 10,Amelia,,F,24,Fashion designer        ,Halifax,,,0,10,3,Communications and Information Systems
+Series 10,Dan,,M,32,Support worker        ,Rotherham,,,0,10,6,Human Services
+Series 10,David,,M,36,International health adviser        ,Whitby,,,1,10,5,Health Science
+Series 10,Helena,,F,40,Online project manager        ,Leeds,,,0,10,2,"Business, Management and Administration"
+Series 10,Henry,,M,20,Student,Durham,,,0,10,7,Student
+Series 10,Jamie,,M,20,Part-time waiter        ,Surrey,,,0,10,6,Human Services
+Series 10,Michael,,M,26,Theatre manager/fitness instructor        ,Stratford-upon-Avon,,,0,10,8,Arts
+Series 10,Michelle,,F,35,Print shop administrator        ,"Tenby, Wales",,,0,10,2,"Business, Management and Administration"
+Series 10,Phil,,M,56,HGV driver        ,Rainham,,,0,10,6,Human Services
+Series 10,Priya,,F,34,Marketing consultant        ,Leicester,,,0,10,2,"Business, Management and Administration"
+Series 10,Rosie,,F,28,Veterinary surgeon        ,Somerset,,,0,10,5,Health Science
+Series 10,Steph,,F,28,Shop assistant        ,Chester,,,0,10,6,Human Services
+Series 11,Dave,,M,30,Armoured security guard        ,"Waterlooville, Hampshire",,,0,11,6,Human Services
+Series 11,Hermine,,F,39,Accountant ,London,,,0,11,2,"Business, Management and Administration"
+Series 11,Laura,,F,31,Digital manager        ,"Gravesend, Kent",,,0,11,2,"Business, Management and Administration"
+Series 11,Linda,,F,61,Retirement living team leader        ,"Bexhill-on-Sea, East Sussex",,,0,11,6,Human Services
+Series 11,Loriea,,F,27,Diagnostic radiographer        ,Durham,,,0,11,5,Health Science
+Series 11,Lottie,,F,31,Pantomime producer        ,West Sussex,,,0,11,8,Arts
+Series 11,Mak,,M,51,Accountant ,Manchester,,,0,11,2,"Business, Management and Administration"
+Series 11,Marc E,,M,51,Bronze resin sculptor        ,"St Eval, Cornwall",,,0,11,8,Arts
+Series 11,Mark L,,M,32,Project manager        ,"Portadown, Northern Ireland",,,0,11,2,"Business, Management and Administration"
+Series 11,Peter,,M,20,Accounting & finance student        ,Edinburgh,,,0,11,7,Student
+Series 11,Rowan,,M,55,Music teacher        ,"Pershore, Worcestershire",,,0,11,9,Teacher/Coach
+Series 11,Sura,,F,31,Hospital pharmacy dispenser        ,London,,,0,11,5,Health Science
