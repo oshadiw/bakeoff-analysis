@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html>
+<title>The Great British Bake Off Analysis</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<style>
+body {font-family: "Times New Roman", Georgia, Serif;}
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 5px;
+}
+</style>
+<body>
+
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+    <a href="#home" class="w3-bar-item w3-button">The Great British Bakeoff Analysis</a>
+    <!-- Right-sided navbar links. Hide them on small screens -->
+    <div class="w3-right w3-hide-small">
+      <a href="#contestants" class="w3-bar-item w3-button">Contestant Stats</a>
+      <a href="#recipe" class="w3-bar-item w3-button">Recipe Picker</a>
+      <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+    </div>
+  </div>
+</div>
+
+<!-- Header -->
+<header class="w3-display-container w3-content w3-wide" style="max-width:1200px;min-width:500px" id="home">
+  <img class="w3-image" src="static/images/The_Great_British_Bake_Off_title.jpg" alt="GBBO" width="1200" height="100">
+</header>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:1100px">
+  
+  <!-- About Section -->
+  <div class="w3-col m12 w3-padding-large">
+    <h1 class="w3-center">About the Project</h1><br>
+      <div class="w3-row w3-padding-24" id="contestants">
+      <p class="w3-large">This project exploration of the Great British Bake off.</p>
+      
+    </div>
+    
+  </div>
+
+  <hr>
+
+  <!-- Contestants Section -->
+  <div class="w3-col m12 w3-padding-large">
+    <h1 class="w3-center">About the Contestants</h1><br>
+      <div class="w3-row w3-padding-24" id="contestants">
+        <div class="w3-col m6 w3-padding-large w3-hide-small">
+          <img src="static/images/map.jpg" class="w3-round w3-image" alt="map" width="600" height="600">
+        </div>
+      <p class="w3-large">
+        The contestants featured on The Great British Bake Off come from all over the UK! This map shows the geographic distribution of the contestants' hometown.
+      </p>
+    </div>
+  </div>
+  
+  <hr>
+  
+  <!-- Data Explorer Section -->
+  <div class="w3-row w3-padding-64" id="recipe">
+    <div class="w3-col m12 w3-padding-large">
+      <h1 class="w3-center">Data Viewer</h1><br>
+      <p class="w3-large">
+        To explore the data set please select a season, episode, and bake.
+      </p>
+      <label for="Series">Choose a series and week:</label>
+
+      <select name="Series" id="Series">
+        <optgroup label="Series 1">
+          <option value="Week 1">Week 1</option>
+          <option value="Week 2">Week 2</option>
+          <option value="Week 3">Week 3</option>
+          <option value="Week 4">Week 4</option>
+          <option value="Week 5">Week 5</option>
+          <option value="Week 6">Week 6</option>
+          <option value="Week 7">Week 7</option>
+          <option value="Week 8">Week 8</option>
+          <option value="Week 9">Week 9</option>
+          <option value="Week 10">Week 10</option>
+        </optgroup>
+        <optgroup label="Series 2">
+          <option value="Week 1">Week 1</option>
+          <option value="Week 2">Week 2</option>
+          <option value="Week 3">Week 3</option>
+          <option value="Week 4">Week 4</option>
+          <option value="Week 5">Week 5</option>
+          <option value="Week 6">Week 6</option>
+          <option value="Week 7">Week 7</option>
+          <option value="Week 8">Week 8</option>
+          <option value="Week 9">Week 9</option>
+          <option value="Week 10">Week 10</option>
+        </optgroup>
+        <optgroup label="Series 3">
+          <option value="Week 1">Week 1</option>
+          <option value="Week 2">Week 2</option>
+          <option value="Week 3">Week 3</option>
+          <option value="Week 4">Week 4</option>
+          <option value="Week 5">Week 5</option>
+          <option value="Week 6">Week 6</option>
+          <option value="Week 7">Week 7</option>
+          <option value="Week 8">Week 8</option>
+          <option value="Week 9">Week 9</option>
+          <option value="Week 10">Week 10</option>
+        </optgroup>
+        <optgroup label="Series 4">
+          <option value="Week 1">Week 1</option>
+          <option value="Week 2">Week 2</option>
+          <option value="Week 3">Week 3</option>
+          <option value="Week 4">Week 4</option>
+          <option value="Week 5">Week 5</option>
+          <option value="Week 6">Week 6</option>
+          <option value="Week 7">Week 7</option>
+          <option value="Week 8">Week 8</option>
+          <option value="Week 9">Week 9</option>
+          <option value="Week 10">Week 10</option>
+        </optgroup>
+        <optgroup label="Series 5">
+          <option value="Week 1">Week 1</option>
+          <option value="Week 2">Week 2</option>
+          <option value="Week 3">Week 3</option>
+          <option value="Week 4">Week 4</option>
+          <option value="Week 5">Week 5</option>
+          <option value="Week 6">Week 6</option>
+          <option value="Week 7">Week 7</option>
+          <option value="Week 8">Week 8</option>
+          <option value="Week 9">Week 9</option>
+          <option value="Week 10">Week 10</option>
+        </optgroup>
+        <optgroup label="Series 6">
+          <option value="Week 1">Week 1</option>
+          <option value="Week 2">Week 2</option>
+          <option value="Week 3">Week 3</option>
+          <option value="Week 4">Week 4</option>
+          <option value="Week 5">Week 5</option>
+          <option value="Week 6">Week 6</option>
+          <option value="Week 7">Week 7</option>
+          <option value="Week 8">Week 8</option>
+          <option value="Week 9">Week 9</option>
+          <option value="Week 10">Week 10</option>
+        </optgroup>
+        <optgroup label="Series 7">
+          <option value="Week 1">Week 1</option>
+          <option value="Week 2">Week 2</option>
+          <option value="Week 3">Week 3</option>
+          <option value="Week 4">Week 4</option>
+          <option value="Week 5">Week 5</option>
+          <option value="Week 6">Week 6</option>
+          <option value="Week 7">Week 7</option>
+          <option value="Week 8">Week 8</option>
+          <option value="Week 9">Week 9</option>
+          <option value="Week 10">Week 10</option>
+        </optgroup>
+        <optgroup label="Series 8">
+          <option value="Week 1">Week 1</option>
+          <option value="Week 2">Week 2</option>
+          <option value="Week 3">Week 3</option>
+          <option value="Week 4">Week 4</option>
+          <option value="Week 5">Week 5</option>
+          <option value="Week 6">Week 6</option>
+          <option value="Week 7">Week 7</option>
+          <option value="Week 8">Week 8</option>
+          <option value="Week 9">Week 9</option>
+          <option value="Week 10">Week 10</option>
+        </optgroup>
+        <optgroup label="Series 9">
+          <option value="Week 1">Week 1</option>
+          <option value="Week 2">Week 2</option>
+          <option value="Week 3">Week 3</option>
+          <option value="Week 4">Week 4</option>
+          <option value="Week 5">Week 5</option>
+          <option value="Week 6">Week 6</option>
+          <option value="Week 7">Week 7</option>
+          <option value="Week 8">Week 8</option>
+          <option value="Week 9">Week 9</option>
+          <option value="Week 10">Week 10</option>
+        </optgroup>
+        <optgroup label="Series 10">
+          <option value="Week 1">Week 1</option>
+          <option value="Week 2">Week 2</option>
+          <option value="Week 3">Week 3</option>
+          <option value="Week 4">Week 4</option>
+          <option value="Week 5">Week 5</option>
+          <option value="Week 6">Week 6</option>
+          <option value="Week 7">Week 7</option>
+          <option value="Week 8">Week 8</option>
+          <option value="Week 9">Week 9</option>
+          <option value="Week 10">Week 10</option>
+        </optgroup>
+        <optgroup label="Series 11">
+          <option value="Week 1">Week 1</option>
+          <option value="Week 2">Week 2</option>
+          <option value="Week 3">Week 3</option>
+          <option value="Week 4">Week 4</option>
+          <option value="Week 5">Week 5</option>
+          <option value="Week 6">Week 6</option>
+          <option value="Week 7">Week 7</option>
+          <option value="Week 8">Week 8</option>
+          <option value="Week 9">Week 9</option>
+          <option value="Week 10">Week 10</option>
+        </optgroup>
+      </select>
+  </div>
+
+  <hr>
+
+  <!-- Nutrition Section -->
+  <div class="w3-row w3-padding-64" id="recipe">
+    <div class="w3-col m12 w3-padding-large">
+      <h1 class="w3-center">Nutrition of Technical Bakes</h1><br>
+      <p class="w3-large">
+        We have performed web scraping from (insert link) to get the ingredients from each of the technical bakes. These have then gone through natural language processing to extract the ingredient, quantity, and measurement. These have then used in conjunction with Food Data Central API to extract the key macros for each dish including protein, sugar, and fat. Select a season and episode to see key nutrients for each dish. Selecting just a season will show which dish has the most of each nutrient per serving.
+      </p>
+  </div>
+
+  <hr>
+  
+<!-- End page content -->
+</div>
+
+<!-- Footer -->
+<footer class="w3-center w3-light-grey w3-padding-32">
+  <p>Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank" class="w3-hover-text-green">w3.css</a></p>
+</footer>
+
+</body>
+</html>
