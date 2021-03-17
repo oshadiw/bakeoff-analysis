@@ -675,11 +675,13 @@ Series 9,6,Rahul,Pastry,Samosas,Paneer Singara and Misti Singara,,0,12,1,6 Puits
 Series 9,6,Ruby,Pastry,Samosas,Traditional Samosas,,0,12,1,6 Puits D'amour,Prue,2,1,6,7,Shaped Banquet Pie,Kohinoor Crown,,1,1,0,1,0,0,0,1,0,
 Series 9,7,Briony,Vegan,Savoury Vegan Tartlets,French Onion Tartlets and Celeriac & Apple Tartlets,,1,8,0,Vegan Tropical Fruit Pavlova,Prue,2.5,1,1,5,Vegan Celebratory Cake,Hazelnut Mocha Cake,,1,1,0,0,0,0,0,1,0,
 Series 9,7,Jon,Vegan,Savoury Vegan Tartlets,Garlic Mushroom Tartlets and Falafel & Hummus Tartlets,,1,8,0,Vegan Tropical Fruit Pavlova,Prue,2.5,1,1,4,Vegan Celebratory Cake,Only Fools Eat Horses Cake,,1,1,0,0,1,0,1,1,0,
-Series 9,7,Kim-Joy,Vegan,Savoury Vegan Tartlets,"Broccoli & Tomato Quiches and Mascarpone Squirrel Tartlets",,1,8,1,Vegan Tropical Fruit Pavlova,Prue,2.5,1,1,6,Vegan Celebratory Cake,Lavender & Lemon Fox Cake,,1,1,0,1,0,1,0,1,0,
+Series 9,7,Kim-Joy,Vegan,Savoury Vegan Tartlets,"Broccoli & Tomato Quiches and Mascarpone Squirrel Tartlets
+",,1,8,1,Vegan Tropical Fruit Pavlova,Prue,2.5,1,1,6,Vegan Celebratory Cake,Lavender & Lemon Fox Cake,,1,1,0,1,0,1,0,1,0,
 Series 9,7,Manon,Vegan,Savoury Vegan Tartlets,Summer & Winter Tartlets,,1,8,0,Vegan Tropical Fruit Pavlova,Prue,2.5,1,1,2,Vegan Celebratory Cake,Spiced Apple Cake,,1,1,0,0,0,0,0,1,0,
 Series 9,7,Rahul,Vegan,Savoury Vegan Tartlets,Coriander Posto & Veg Tartlets and Ghugni Chaat Tartlets,,1,8,0,Vegan Tropical Fruit Pavlova,Prue,2.5,1,1,1,Vegan Celebratory Cake,Chocolate & Coconut Layer Cake with Raspberry Jam,,1,1,0,1,0,0,0,1,1,
 Series 9,7,Ruby,Vegan,Savoury Vegan Tartlets,Sage & Butternut Tartlets and 'Cheesy Greens' Tartlets,,1,8,0,Vegan Tropical Fruit Pavlova,Prue,2.5,1,1,3,Vegan Celebratory Cake,"Chocolate, Lemon & Coconut Cake",,1,1,0,0,1,0,0,1,0,
-Series 9,8,Briony,Danish,Smørrebrød with Rye Bread,"Spanish & West Country Smørrebrød",,0,2,0,Æbleskiver,Paul,1,1,14,1,kagemand,Nana Pat Kagekone,,1,1,0,1,0,0,0,1,0,
+Series 9,8,Briony,Danish,Smørrebrød with Rye Bread,"Spanish & West Country Smørrebrød
+",,0,2,0,Æbleskiver,Paul,1,1,14,1,kagemand,Nana Pat Kagekone,,1,1,0,1,0,0,0,1,0,
 Series 9,8,Kim-Joy,Danish,Smørrebrød with Rye Bread,Bumblebee Eggs & Fish Smørrebrød,,0,2,0,Æbleskiver,Paul,1,1,14,2,kagemand,Off to the Opera Kagekone,,1,1,0,0,1,0,0,1,0,
 Series 9,8,Manon,Danish,Smørrebrød with Rye Bread,Cheese and Fruit Smørrebrød,,0,2,0,Æbleskiver,Paul,1,1,14,4,kagemand,Birthday Girl Kagekone,,1,1,0,0,1,0,1,1,0,
 Series 9,8,Rahul,Danish,Smørrebrød with Rye Bread,Smoked Salmon & Roasted Vegetable Smørrebrød,,0,2,0,Æbleskiver,Paul,1,1,14,5,kagemand,Indian King Kagemand,,1,1,0,0,1,0,0,1,1,
@@ -687,10 +689,12 @@ Series 9,8,Ruby,Danish,Smørrebrød with Rye Bread,Post-Gym Smørrebrød,,0,2,0,
 Series 9,9,Briony,Pâtisserie,24 Madeleines,"Mojito Madeleines
 Espresso Martini Madeleines",1.5,1,24,0,Torta Setteveli,Prue,4.5,1,1,3,Parisian Patisserie Window,British Tea to French Pâtisserie Window,5,1,36,0,0,1,0,1,1,0,
 Series 9,9,Kim-Joy,Pâtisserie,24 Madeleines,"Ginger and Lemon Madeleines
-Orange Bunny Madeleines",1.5,1,24,0,Torta Setteveli,Prue,4.5,1,1,2,Parisian Patisserie Window,Flavourite Flavours Window Display,5,1,36,0,1,0,0,0,1,0,
+Orange Bunny Madeleines
+",1.5,1,24,0,Torta Setteveli,Prue,4.5,1,1,2,Parisian Patisserie Window,Flavourite Flavours Window Display,5,1,36,0,1,0,0,0,1,0,
 Series 9,9,Rahul,Pâtisserie,24 Madeleines,"Lemon and Raspberry Madeleines
 Orange Curd Madeleines",1.5,1,24,0,Torta Setteveli,Prue,4.5,1,1,4,Parisian Patisserie Window,Classic Tribute to Pâtisserie Window,5,1,36,0,0,1,0,0,1,1,
-Series 9,9,Ruby,Pâtisserie,24 Madeleines,Pick Your Own Madeleines,1.5,1,24,0,Torta Setteveli,Prue,4.5,1,1,1,Parisian Patisserie Window,"Parisian Un Bouquet de Fleurs Window Display",5,1,36,0,1,0,1,0,1,0,
+Series 9,9,Ruby,Pâtisserie,24 Madeleines,Pick Your Own Madeleines,1.5,1,24,0,Torta Setteveli,Prue,4.5,1,1,1,Parisian Patisserie Window,"Parisian Un Bouquet de Fleurs Window Display
+",5,1,36,0,1,0,1,0,1,0,
 Series 9,10,Kim-Joy,Final,Iced Doughnuts,Amaretto Diplomat Filled Doughnuts & Lemon Ring Doughnuts,3,1,12,0,Campfiire Pita Breads,Paul,1.5,0,6,1,Landscape Dessert,Lost City of Atlantis Dessert Landscape,4.5,1,1,0,0,0,0,1,1,0,
 Series 9,10,Rahul,Final,Iced Doughnuts,Mango Créme Pâtissière Filled Doughnuts & Spiced Orange Ring Doughnuts,3,1,12,0,Campfiire Pita Breads,Paul,1.5,0,6,2,Landscape Dessert,Edible Rock Garden,4.5,1,1,0,0,0,1,0,1,1,
 Series 9,10,Ruby,Final,Iced Doughnuts,Dulce De Leche Filled Doughnuts & Raspberry and Cardamom Ring Doughnuts,3,1,12,0,Campfiire Pita Breads,Paul,1.5,0,6,3,Landscape Dessert,Magical Edible Landscape,4.5,1,1,0,0,0,0,1,1,0,
