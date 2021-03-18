@@ -34,9 +34,10 @@
       <a href="#home" class="w3-bar-item w3-button">The Great British Bakeoff Analysis</a>
       <!-- Right-sided navbar links. Hide them on small screens -->
       <div class="w3-right w3-hide-small">
-        <a href="#contestants" class="w3-bar-item w3-button">Contestant Stats</a>
-        <a href="#recipe" class="w3-bar-item w3-button">Recipe Picker</a>
-        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+        <a href="#about" class="w3-bar-item w3-button">About the Show</a>
+        <a href="#contestants" class="w3-bar-item w3-button">Contestants</a>
+        <a href="#winners" class="w3-bar-item w3-button">Winners</a>
+        <a href="#nutrition" class="w3-bar-item w3-button">Nutrition Analysis</a>
       </div>
     </div>
   </div>
@@ -52,14 +53,14 @@
     <!-- About Section -->
     <div class="w3-col m12 w3-padding-large">
       <h1 class="w3-center">The Show</h1><br>
-      <div class="w3-row w3-padding-24" id="contestants">
+      <div class="w3-row w3-padding-24" id="about">
         <p class="w3-large">The Great British Bake Off is a British television baking competition in which a group of
           amateur bakers compete against each other in a series of rounds, attempting to impress a group of judges with
           their baking skills. The show has inspired many to begin baking themselves, myself included. It is now
           available on Netflix but matching up the british and american season can be quite tricky. In the US, the show
           is titled The Great British Baking Show rather than bake off because of a Pillsbury trademark on the term
           bake-off. The seasons themselves are out of order on Netflix but you can blame PBS for that. They got the
-          rights to the seasons out of order and decided to number them based on when they were aquired. The table below
+          rights to the seasons out of order and decided to number them based on when they were acquired. The table below
           can be used to clear up some of the confusion.</p>
       </div>
       <img class="w3-image" src="static/images/GBBO Data Set - Seasons.jpg">
@@ -69,49 +70,49 @@
 
     <!-- Contestants Section -->
     <div class="w3-col m12 w3-padding-large">
-      <h1 class="w3-center">About the Contestants</h1><br>
-      <div class="w3-row w3-padding-24" id="contestants">
+      <h1 class="w3-center" id="contestants">About the Contestants</h1><br>
+      <div class="w3-row w3-padding-24">
         <div class="w3-col m6 w3-padding-large w3-hide-small w3-right">
-          <img src="static/images/contestant_ages.png" class="w3-round w3-image" alt="map" width="600" height="600">
+          <img src="static/images/contestant_ages.png" class="w3-round w3-image" alt="Contestant Ages" width="600" height="600">
         </div>
         <p class="w3-large">
           Each season, a dozen bakers are selected from a pool of nearly 12,000 applicants. Contestants come from all
           walks of life and While the average of of all contestants is 37, the youngest contestant was 17 (Martha from
-          Season 5) and the oldest was 71 (Flo from Season 8). The show is also split almost evenly between female and 
+          season 5) and the oldest was 71 (Flo from season 8). The show is also split almost evenly between female and 
           male, 68 and 64 contestants respectively.
         </p>
       </div>
-      <div class="w3-row w3-padding-24" id="contestants">
+      <div class="w3-row w3-padding-24">
         <div class="w3-col m6 w3-padding-large w3-hide-small">
-          <img src="static/images/contestant_occupations.png" class="w3-round w3-image" alt="map" width="600"
+          <img src="static/images/contestant_occupations.png" class="w3-round w3-image" alt="Contestant Occupations" width="600"
             height="600">
         </div>
         <p class="w3-large">
           Contestants on the show are not professional bakers. They are home cooks who have a passion for baking. Some
           are retired, some are students, and others are what we now call "essential workers." The graph on the left
           shows that nearly a quarter of the contestants work in "Business Management and Administration". This includes
-          jobs like Ruby from Season 9 who is a Project Manager or Dorret from Season 6 who works as an Accountant. 
+          jobs like Ruby from season 9 who is a Project Manager or Dorret from Season 6 who works as an Accountant. 
           
           Most of the contestants don't quit their day job after the show since there is no cash prize. However, some do shift
           to a more food focused career. More that 20 of the former contestants have written cooking books and many of
           the former winners continue to make appearances at festivals and as guest judges for cooking competitions.
         </p>
       </div>
-      <div class="w3-row w3-padding-24" id="contestants">
+      <div class="w3-row w3-padding-24">
         <div class="w3-col m6 w3-padding-large w3-hide-small">
           <img src="static/images/map.jpg" class="w3-round w3-image" alt="map" width="600" height="600">
         </div>
         <p class="w3-large">
           The contestants featured on The Great British Bake Off come from all over the UK! This map shows the
           geographic distribution of the contestants hometowns. You can see that many of the contestants are from London
-          and Manchester but some contestants come from as far north as Hillswick (James from Season 3).
+          and Manchester but some contestants come from as far north as Hillswick (James from season 3).
         </p>
       </div>
     </div>
     <hr>
 
     <!-- Data Explorer Section -->
-    <div class="w3-row w3-padding-64" id="recipe">
+    <div class="w3-row w3-padding-64" id="winners">
       <div class="w3-col m12 w3-padding-large">
         <h1 class="w3-center">Winners</h1><br>
         <p class="w3-large">
@@ -136,35 +137,39 @@
           <br>
           Each week, one of the two bakers considered to be 'in danger' goes home. For those in danger, the only way to stay in the
           contest is to do well in the showstopper challenge. Nearly every winner has been in danger of going home at
-          least once. Only Sophie from Season 8 was never at risk of going home. She is also tied for the most number of
+          least once. Only Sophie from season 8 was never at risk of going home. She is also tied for the most number of
           weeks in the running for star baker and won it twice. Interestingly, the person who won the most number of
           star bakers did not win the competition. Richard Burr won star baker 5 times in season 5 and came in as
           runner up to Nancy Birtwhistle who is the oldest winner of the show at 60 years old.
         </p>
       </div>
-
+      <div class="w3-col m6 w3-padding-large w3-hide-small w3-center">
+        <img src="static/images/star_baker_week.png" class="w3-round w3-image" alt="map" width="600"
+          height="600">
+      </div>
       <hr>
-      <div class="w3-row w3-padding-64" id="recipe">
-        <img src="static/images/technical_rank.png" class="w3-image" alt="map" width="600" height="600">
+      <div class="w3-row w3-padding-Large" id="recipe">
         <p class="w3-large">
           The part of the episode that usually gives the bakers the most challenge is the technical bake. This is when the 
           contestants come in to the tent with no foreknowledge of what they will be baking. They are then given a stripped down 
           recipe written by one of the judges along with the exact ingredients needed for the bake. Interestingly, only one 
-          winner has come in first on the technical during bread week (John Whaite from Season 3) but 5 of the winners came in 
+          winner has come in first on the technical during bread week (John Whaite from season 3) but 5 of the winners came in 
           second place.  
         </p>
+      </div>
+      <div class="w3-row w3-padding-64" id="recipe">
+        <img src="static/images/technical_rank.png" class="w3-image" alt="map" width="600" height="600">
       </div>
 
       <!-- Nutrition Section -->
       <div class="w3-row w3-padding-64" id="recipe">
         <div class="w3-col m12 w3-padding-large">
-          <h1 class="w3-center">Nutrition of Technical Bakes</h1><br>
+          <h1 class="w3-center" id = "nutrition">Nutrition of Technical Bakes</h1><br>
           <p class="w3-large">
             We have performed web scraping from (insert link) to get the ingredients from each of the technical bakes.
             These have then gone through natural language processing to extract the ingredient, quantity, and
-            measurement. These have then used in conjunction with Food Data Central API to extract the key macros for
-            each dish including protein, sugar, and fat. Select a season and episode to see key nutrients for each dish.
-            Selecting just a season will show which dish has the most of each nutrient per serving.
+            measurement. These have then been interfaced with the Food Data Central API to extract the key macros for
+            each dish including protein, sugar, and fat. 
           </p>
         </div>
 
