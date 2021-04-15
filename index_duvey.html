@@ -61,11 +61,8 @@
           is titled The Great British Baking Show rather than Bake Off because of a Pillsbury trademark on the term
           bake-off. The seasons themselves are out of order on Netflix but you can blame PBS for that. They got the
           rights to the seasons out of order and decided to number them based on when they were acquired. The table
-          below can be used to clear up some of the confusion.
-          <br>
-          Why do you want to win?
-        
-        </p>
+          below
+          can be used to clear up some of the confusion.</p>
       </div>
       <img class="w3-image" src="static/images/GBBO Data Set - Seasons.jpg">
     </div>
@@ -74,7 +71,7 @@
 
     <!-- Contestants Section -->
     <div class="w3-col m12 w3-padding-large">
-      <h1 class="w3-center" id="contestants">What Do The Winners Have In Common?</h1><br>
+      <h1 class="w3-center" id="contestants">About the Contestants</h1><br>
       <div class="w3-row w3-padding-24">
         <div class="w3-col m6 w3-padding-large w3-hide-small w3-right">
           <img src="static/images/contestant_ages.png" class="w3-round w3-image" alt="Contestant Ages" width="600"
@@ -85,8 +82,6 @@
           walks of life and while the average of of all contestants is 37, the youngest contestant was 17 (Martha from
           season 5) and the oldest was 71 (Flo from season 8). The show is also split almost evenly between female and
           male, 68 and 64 contestants respectively.
-
-          How does this compare to the winners?
         </p>
       </div>
       <div class="w3-row w3-padding-24">
@@ -175,16 +170,24 @@
         <img src="static/images/technical_rank.png" class="w3-image" alt="map" width="600" height="600">
       </div>
 
-      <!-- What You Need To Know -->
-      <div class="w3-row w3-padding-64" id="needtoknow">
+      <!-- Nutrition Section -->
+      <div class="w3-row w3-padding-64" id="nutrition">
         <div class="w3-col m12 w3-padding-large">
-          <h1 class="w3-center" id="needtoknow">What You Need To Know</h1><br>
+          <h1 class="w3-center" id="nutrition">Technical Bakes</h1><br>
           <p class="w3-large">
-            The ingredients used in the bakes vary drastically
+            We were curious about the nutritional content of the bakes on the show. To find out more we first needed
+            to get recipe ingredients. To do this we scraped the ingredients from <a
+              href="https://thegreatbritishbakeoff.co.uk/recipes/">the GBBO website</a>.
+            We focused on the technical bakes because this was the category that had the largest percentage of recipes
+            available (103/128).
+            These have then gone through natural language processing to extract the ingredient, quantity, and
+            measurement for key ingredients like sugar, milk, and flour. We then interfaced with the <a
+              href="https://thegreatbritishbakeoff.co.uk/recipes/">USDA Food Data Central API</a>
+            to extract the key macros for these ingredients.
           </p>
         </div>
         <div class="w3-row w3-padding-64">
-          <img src="static/images/ingredient_wordcloud.jpg" class="w3-image" alt="map" width="600" height="300">
+          <img src="static/images/judges_average_calories.png" class="w3-image" alt="map" width="600" height="600">
         </div>
         <div class="w3-row w3-padding-Large">
           <p class="w3-large">
